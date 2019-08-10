@@ -1,0 +1,225 @@
+*{
+	padding:0px;
+	margin:0px;
+}
+body{
+	background-image: url(../images/g.jpg);
+	background-attachment: fixed;
+	background-position: fixed;
+	background-size: cover;
+}
+.menu{
+	width:100%;
+	height:80px;
+	background: rgba(206, 115,100, 0.3);
+
+}
+.menu .left{
+	width:30%;
+	height:80px;
+	float:left;
+}
+.left h2{
+	padding: 10px;
+	font-size:50px;
+	margin-left:30px;
+}
+.menu .middle{
+  width:70%;
+  text-align: center;
+}
+.middle ul li{
+	
+	list-style:none;
+	display:inline-block;
+	margin-top:25px;
+	padding-left:10px;
+	position:relative;
+	left:200px;
+}
+	
+.middle ul li a{
+	text-decoration: none;
+	font-size:30px;
+    color:black;
+    font-family: 'ZCOOL XiaoWei', serif;
+} 
+.middle ul li a:hover{
+ color:orange;
+	}
+.front{
+	width:100%;
+	height:400px;
+	background:rgba(0,0,0, 0.6);
+}
+
+.front .imgg{
+	width:30%;
+	height:400px;
+	float:left;
+}
+.imgg img{
+	padding:15px;
+	margin-top:30px;
+	margin-left: 20px;
+	border-radius: 50%;
+	border:2px solid #000;
+}
+.front .text{
+	color:#fff;
+	text-align: center;
+	padding:10px;
+	padding-top:70px;
+}
+.text h1{
+	font-size:30px;
+	font-family: 'ZCOOL XiaoWei', serif;
+	letter-spacing: 6px;
+	padding: 5px;
+}
+.text h6{
+	padding:10px;
+	letter-spacing:5px;
+	font-size:20px;
+    color:#abcd;
+}
+.text h5{
+	padding:10px;
+	letter-spacing:5px;
+	font-size:25px;
+    color:#dac;
+
+
+}
+#buton{
+ position:relative;
+ left:400px;
+ padding:6px;
+ font-size:18px;
+ color:orange;
+
+}
+#buton:hover{
+
+	color:#000;
+  
+}
+.details{
+	width:100%;
+	height:500px;
+	background:#fff;
+	padding-top:40px;
+}
+.head{
+	height:100px;
+	
+	text-align: center;
+	padding:10px;
+	font-size:40px;
+	font-family: 'ZCOOL XiaoWei', serif;
+}
+.head h5{
+	padding-top:70px;
+	color:green;
+	padding:5px;
+}
+.head h6{
+	font-size:15px;
+	letter-spacing: 4px;
+}
+.immg{
+	width:90%;
+    margin-left:150px;
+}
+.p1,.p2,.p3,.p4{
+	float:left;
+	padding:20px;
+
+
+
+}
+.p1 img,.p2 img,.p3 img,.p4 img{
+ border-radius: 50%;
+ border:5px solid #000;
+}
+.p1 h3,.p2 h3,.p3 h3,.p4 h3{
+   font-size:30px;
+   font-family: 'ZCOOL XiaoWei', serif;
+ 
+   width:200px;
+   text-align:center;
+   background-color:green;
+   padding: 10px;
+   border:2px solid green;
+   border-radius:40%;
+}
+.gallery{
+	width:100%;
+	height:auto;
+	margin:auto;
+	background: rgba(206, 115,100, 0.3);
+
+}
+.look-msg{
+	padding-top:50px;
+	padding-bottom:50px;
+}
+.look-msg h1,h5{
+	text-align: center;
+	 font-family: 'ZCOOL XiaoWei', serif;
+	 color:#000;
+}
+.look-msg h1{
+	font-size:35px;
+}
+.look-msg h5{
+ letter-spacing:8px;
+ font-size:20px;
+ padding: 5px;
+   color:gray;
+}
+.image-slider{
+	width:70%;
+	margin:auto;
+	margin-bottom:20px;
+	
+
+	
+}
+.image-slider figure img{
+	padding:5px;
+}
+.footerr{
+	width:100%;
+	height:100px;
+	background-color: gray;
+	font-family: 'ZCOOL XiaoWei', serif;
+	overflow: hidden;
+}
+.namee{
+	padding:15px;
+}
+.name h1,h4{
+	letter-spacing: 4px;
+}
+.icon{
+	float:right;
+    margin-right:150px;
+    position: relative;
+    top:-70px;
+}
+.icon ul li{
+	list-style: none;
+	text-decoration:none;
+	display:inline-block;
+
+}
+.icon ul li a{
+	font-size:50px;
+	padding:5px;
+	color:#000;
+
+}
+.icon ul li a:hover{
+ font-size: 70px;
+	}
